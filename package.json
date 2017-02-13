@@ -1,0 +1,29 @@
+{
+  "name": "guppy-post-flow-release-start",
+  "version": "1.0.0",
+  "description": "Installs a post-flow-release-start git-hook only, for guppy packages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "guppy post-flow-release-start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EvtK/guppy-post-flow-release-start.git"
+  },
+  "keywords": [
+    "guppy",
+    "git-guppy",
+    "guppy-hook",
+    "post-flow-release-start"
+  ],
+  "author": "Erik van 't Klooster (https://github.com/EvtK)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EvtK/guppy-post-flow-release-start/issues"
+  },
+  "homepage": "https://github.com/EvtK/guppy-post-flow-release-start",
+  "dependencies": {
+    "guppy-cli": "git+https://github.com/EvtK/guppy-cli"
+  }
+}
